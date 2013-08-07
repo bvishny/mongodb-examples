@@ -131,7 +131,7 @@ limitations under the License.
     <!-- Run the second mongo server.                                        -->
     <!-- ******************************************************************* -->
 
-    <target name="mongo1">
+    <target name="mongo2">
         <antcall target="mongo">
             <param name="mongo.port" value="27020"/>
             <param name="mongo.dir.db" value="${dir.build}/data/r2"/>
@@ -144,7 +144,7 @@ limitations under the License.
     <!-- Run the second mongo server.                                        -->
     <!-- ******************************************************************* -->
 
-    <target name="mongo1">
+    <target name="mongo3">
         <antcall target="mongo">
             <param name="mongo.port" value="27021"/>
             <param name="mongo.dir.db" value="${dir.build}/data/r3"/>
@@ -156,7 +156,7 @@ limitations under the License.
     <!-- Run the second mongo server.                                        -->
     <!-- ******************************************************************* -->
 
-    <target name="mongo1">
+    <target name="mongo4">
         <antcall target="mongo">
             <param name="mongo.port" value="27022"/>
             <param name="mongo.dir.db" value="${dir.build}/data/r4"/>
@@ -168,7 +168,7 @@ limitations under the License.
     <!-- Run the second mongo server.                                        -->
     <!-- ******************************************************************* -->
 
-    <target name="mongo1">
+    <target name="mongo5">
         <antcall target="mongo">
             <param name="mongo.port" value="27023"/>
             <param name="mongo.dir.db" value="${dir.build}/data/r5"/>
@@ -180,7 +180,7 @@ limitations under the License.
     <!-- Run the second mongo server.                                        -->
     <!-- ******************************************************************* -->
 
-    <target name="mongo1">
+    <target name="mongo6">
         <antcall target="mongo">
             <param name="mongo.port" value="27024"/>
             <param name="mongo.dir.db" value="${dir.build}/data/a1"/>
@@ -192,7 +192,7 @@ limitations under the License.
     <!-- Run the second mongo server.                                        -->
     <!-- ******************************************************************* -->
 
-    <target name="mongo1">
+    <target name="mongo7">
         <antcall target="mongo">
             <param name="mongo.port" value="27025"/>
             <param name="mongo.dir.db" value="${dir.build}/data/r6"/>
